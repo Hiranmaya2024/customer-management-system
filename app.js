@@ -1,4 +1,4 @@
-const API_URL = 'https://script.google.com/macros/s/AKfycbyo8de87noHTvVg5e4Pp-y4MNe-fDLVFGW_mQS5FD375fRUZgpDD5wRRbR5kMyswV7l2A/exec'; // Replace with your deployed Apps Script URL.
+//const API_URL = 'https://script.google.com/macros/s/AKfycbyo8de87noHTvVg5e4Pp-y4MNe-fDLVFGW_mQS5FD375fRUZgpDD5wRRbR5kMyswV7l2A/exec'; // Replace with your deployed Apps Script URL.
 
 //document.addEventListener('DOMContentLoaded', () => {
 //  const form = document.getElementById('loginForm');
