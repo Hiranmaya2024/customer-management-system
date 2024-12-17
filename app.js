@@ -1,4 +1,4 @@
-const API_URL = 'https://script.google.com/macros/s/AKfycby2QNdbIwb9N2uy9nVaptNvyPKfRyINskRHFnXf8S_HcyZJK1LmEt-ucZXNFfbUR-rJ/exec'; // Replace with your deployed Apps Script URL.
+const API_URL = 'https://script.google.com/macros/s/AKfycbx3VTsK_0JVzBAN4UvIPq2yLMYmrXnG_NcVwML6E9meVFPXr1qZheakrMkraDvocFCljQ/exec'; // Replace with your deployed Apps Script URL.
 
 //document.addEventListener('DOMContentLoaded', () => {
 //  const form = document.getElementById('loginForm');
@@ -12,7 +12,7 @@ document.getElementById("loginForm").addEventListener("submit", async (event) =>
   const username = document.getElementById("username").value;
   const password = document.getElementById("password").value;
 
-  const url = `https://script.google.com/macros/s/AKfycby2QNdbIwb9N2uy9nVaptNvyPKfRyINskRHFnXf8S_HcyZJK1LmEt-ucZXNFfbUR-rJ/exec?action=login&username=${username}&password=${password}`;
+  const url = `https://script.google.com/macros/s/AKfycbx3VTsK_0JVzBAN4UvIPq2yLMYmrXnG_NcVwML6E9meVFPXr1qZheakrMkraDvocFCljQ/exec?action=login&username=${username}&password=${password}`;
 
   try {
     const response = await fetch(url, {
