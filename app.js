@@ -1,4 +1,4 @@
-const API_URL = 'https://script.google.com/macros/s/AKfycbypyGwWYVXUgozvlRoCqDP2rJepsTUJBQ7R4yj5FKyYvWPwzYlnJ64pQjjd4bWhstteVg/exec'; // Replace with your deployed Apps Script URL.
+const API_URL = 'https://script.google.com/macros/s/AKfycbyo8de87noHTvVg5e4Pp-y4MNe-fDLVFGW_mQS5FD375fRUZgpDD5wRRbR5kMyswV7l2A/exec'; // Replace with your deployed Apps Script URL.
 
 document.addEventListener('DOMContentLoaded', () => {
   const form = document.getElementById('loginForm');
@@ -30,7 +30,7 @@ function loginUser(event) {
   
   const username = document.getElementById("username").value;
   const password = document.getElementById("password").value;
-  const url = "https://script.google.com/macros/s/AKfycbypyGwWYVXUgozvlRoCqDP2rJepsTUJBQ7R4yj5FKyYvWPwzYlnJ64pQjjd4bWhstteVg/exec?action=login&username=" 
+  const url = "https://script.google.com/macros/s/AKfycbyo8de87noHTvVg5e4Pp-y4MNe-fDLVFGW_mQS5FD375fRUZgpDD5wRRbR5kMyswV7l2A/exec?action=login&username=" 
               + encodeURIComponent(username) 
               + "&password=" 
               + encodeURIComponent(password);
