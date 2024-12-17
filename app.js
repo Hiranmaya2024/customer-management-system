@@ -7,23 +7,6 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 });
 
-//function loginUser(e) {
- // e.preventDefault();
-  //const username = document.getElementById('username').value;
- // const password = document.getElementById('password').value;
-
- // fetch(`${API_URL}?action=login&username=${username}&password=${password}`, { method: 'POST' })
- //   .then(res => res.json())
-  //  .then(data => {
- //     if (data.success) {
- //       const page = data.userType === 'Customer' ? 'customer.html' : 'staff.html';
- //       localStorage.setItem('username', username);
-  //      window.location.href = page;
- //     } else {
-//        document.getElementById('error').innerText = data.error;
-//      }
-//    });
-//}
 
 function loginUser(event) {
   event.preventDefault();
