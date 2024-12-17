@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Staff Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js"></script>
+</head>
+<body>
+  <h1>Staff Dashboard</h1>
+  <button onclick="showOffers()">Show Offers</button>
+  <div id="offers"></div>
+
+  <h3>View Customer Ledger</h3>
+  <select id="customerDropdown" onchange="fetchLedger()"></select>
+  <table id="ledgerTable" border="1"></table>
+
+  <h3>View Company Stock</h3>
+  <select id="companyDropdown" onchange="fetchCompanyStock()"></select>
+  <table id="companyTable" border="1"></table>
+</body>
+</html>
