@@ -27,7 +27,7 @@ function loginUser(event) {
   })
   .then(data => {
     if (data.success) {
-      alert("Login Successful! User type: " + data.userType);
+     // alert("Login Successful! User type: " + data.userType);
       // Redirect based on userType
       window.location.href = data.userType === "Customer" ? "customer.html" : "staff.html";
     } else {
