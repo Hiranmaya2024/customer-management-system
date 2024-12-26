@@ -1,0 +1,34 @@
+.login-container {
+    display: flex;
+    flex-direction: column; /* Change to column to stack items vertically */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Make container take full viewport height */
+    flex-wrap: wrap;
+    padding: 25px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+    align-items: center; /* Vertically center */
+    justify-content: center; /* Horizontally center */
+    
+min-height: 100vh; /* Make container at least viewport height}
+
+<div class="d-flex justify-content-between align-items-center">
+      <h1 class="fs-4">Staff Management Dashboard</h1>
+<a href="C:\Users\admin\Desktop\aaradhyaapp2\2612start\arc-main (1)\arc-main\index.html">Home</a>
+      <button class="btn btn-danger" onclick="logout()">Logout</button>
+
+
+
+    </div>
+
+
+        <section id="offers">
+            <h2>Current Offers</h2>
+            <ul id="offersList">
+                <!-- Offers will be dynamically loaded here -->
+            </ul>
+        </section>
